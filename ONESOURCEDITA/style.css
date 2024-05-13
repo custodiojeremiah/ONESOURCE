@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 10px; /* Reduced padding */
+  font-size: 14px; /* Smaller font size */
+}
+
+#addEmployeeBtn {
+  background-color: #ffcc00;
+  border: none;
+  padding: 8px 16px; /* Smaller padding */
+  font-size: 14px; /* Smaller font size */
+  cursor: pointer;
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+#employeeForm {
+  background-color: #fff;
+  padding: 15px; /* Reduced padding */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Max-width for better control */
+  margin: auto; /* Centering the form */
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* Reduced gap */
+}
+
+form label {
+  flex-basis: 50%;
+  margin-bottom: 5px; /* Reduced margin */
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="file"],
+form button {
+  flex: 1;
+  padding: 4px; /* Smaller padding */
+  margin-bottom: 8px; /* Reduced margin */
+}
+
+#searchEmployee {
+  padding: 6px; /* Smaller padding */
+  margin-bottom: 10px; /* Reduced margin */
+  width: calc(20% - 20px); /* Adjusting width */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  font-size: 15px; /* Smaller font size */
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #ffcc00;
+  color: black;
+  padding: 6px; /* Smaller padding */
+}
+
+td {
+  padding: 6px; /* Smaller padding */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+button.edit, button.archive {
+  padding: 4px 8px; /* Smaller padding */
+  font-size: 14px; /* Smaller font size */
+  border: none;
+  cursor: pointer;
+}
+
+button.edit {
+  background-color: #e7e7e7; /* Gray color */
+  color: black;
+}
+
+button.archive {
+  background-color: #f44336; /* Red color */
+  color: white;
+}
+
